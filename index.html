@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store locator</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeSc7x46Ri9OiqckzrCqFlan4kgH-UwB0&callback=initMap" defer></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div id="sidebar"></div>
+        <script id="productlistingtemplate" type="text/x-handlebars-template">
+            {{#each stores}}
+            <div  class="store-item" id="{{id}}">
+               <p><span id="bold">Address:</span>{{address}}</p> 
+               <p><span id="bold">Phone Number:</span>{{phone_number}}</p> 
+            </div>
+                {{/each}}
+            </script>
+        <div id="map-sidebar">
+    <div id="map"></div>
+</div>
+</div>
+<script src="./handlebars.min-v4.7.7.js"></script>
+    
+    <script src="index.js"></script>
+</body>
+</html>

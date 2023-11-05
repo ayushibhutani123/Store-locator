@@ -1,0 +1,51 @@
+{
+    "stores": [
+      {
+        "id": "store_1",
+        "address": "123 Main Street, City 1, State 1, Zip Code 1",
+        "phone_number": "+1 (123) 456-7890",
+        "coordinates": {
+          "latitude": 28.8955,
+          "longitude": 76.6066
+        }
+      },
+      {
+        "id": "store_2",
+        "address": "456 Elm Street, City 2, State 2, Zip Code 2",
+        "phone_number": "+1 (987) 654-3210",
+        "coordinates": {
+          "latitude": 28.4595,
+          "longitude": 77.0266
+        }
+      },
+      {
+        "id": "store_3",
+        "address": "789 Oak Street, City 3, State 3, Zip Code 3",
+        "phone_number": "+1 (555) 123-4567",
+        "coordinates": {
+          "latitude": 28.5355,
+          "longitude": 77.3910
+        }
+      },
+      {
+        "id": "store_4",
+        "address": "Tamworth, NSW, Australia",
+        "phone_number": "+1 (555) 123-4567",
+        "coordinates": {
+          "latitude": -33.865143,
+          "longitude": 151.209900
+        }
+      },
+      {
+        "id": "store_5",
+        "address": "Auckland, New Zealand",
+        "phone_number": "+1 (555) 123-4567",
+        "coordinates": {
+          "latitude": -41.5000831,
+          "longitude":172.8344077
+        }
+      }
+
+    ]
+  }
+  

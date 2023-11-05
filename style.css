@@ -1,0 +1,26 @@
+
+body{
+    width:100vw;
+    height: 100vh;
+    margin: auto;
+}
+.maincontainer{
+    display: flex;
+}
+#sidebar{
+    width: 30%;
+}
+#map-sidebar {
+    width: 70%; 
+    height: 100vh; 
+  }
+  
+  #map {
+    width: 100%; 
+    height: 100%; 
+  }
+  .store-item{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    padding: 2rem 2rem;
+}
+  
